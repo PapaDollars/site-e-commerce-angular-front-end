@@ -1,0 +1,2359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css'>
+  <title>Document</title>
+</head>
+<body>
+  <div>
+
+    <!-- header page -->
+    <section class="section_1 fixed-top bg-white">
+      <div class="container-fluid bg-dark p-2"></div>
+      <!-- Search -->
+        <div class="container-fluid">
+          <div class="row align-items-center p-2">
+            <div class="col-3">
+              <div><img src="" alt="logo"></div>
+            </div>
+            <div class="col">
+              <form class="d-flex ms-auto">
+                <div class="input-group">
+                    <input class="form-control bgsearch2 border-0 mr-2" type="search" placeholder="Search" aria-label="Recherche">
+                    <button class="btn bgsearch text-white border-0" type="submit">Recherche</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-4 ">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="https://cdn.pixabay.com/photo/2016/12/12/13/23/shopping-cart-1901584_1280.png" width="40" alt="panier">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <button type="button" class="btn btn-primary btn-md">Créer un compte</button>
+            </div>
+          </div>
+        </div>
+      <!-- menu -->
+        <app-menu></app-menu>
+     </section>
+
+
+     <!-- main-page -->
+     <section class="section_2" >
+        <div class="container-fluid bg-white p-5"></div>
+        <div class="container-fluid bg-white p-4"></div>
+        <div class="container">
+          <marquee id="id1" [vspace]="0" width="100%" p-5 direction="left" height="350px">
+            <span onmouseover="getElementById('id1').stop();" onmouseout=" getElementById('id1').start();">
+            <img src="https://th.bing.com/th/id/OIP.A0WtuDkQf9jasaIdDYZHNwHaFj?pid=ImgDet&w=640&h=480&rs=1"   width="500" height="350" alt="">&nbsp;&nbsp;
+            <img src="https://th.bing.com/th/id/OIP.xHs2AH3P4c8I05U15P3Y9wHaE8?pid=ImgDet&w=1024&h=683&rs=1" width="500" height="350" alt="">&nbsp;&nbsp;
+            <img src="https://th.bing.com/th/id/R.f493887000ec71519b1876a110d7a726?rik=WAXTyuiV3TC5aw&riu=http%3a%2f%2fwww.stedilman.it%2fcucine%2fMELISSA%2fmelissa13.jpg&ehk=UX00BwRPBJ4pjVdFG%2bKUMVJi7aHA9aoAKDPH1urCIBE%3d&risl=&pid=ImgRaw&r=0" width="500" height="350" alt="">
+            </span>
+            </marquee>
+        <!-- all card products -->
+        </div>
+          <div>
+          <!-- barre jeux et jouets -->
+          <div class="container">
+            <div class="container bg-success text-light p-3"> <h4> JEUX ET JOUETS</h4></div>
+          </div>
+          <!-- content jeux -->
+            <div class="container mt-2 mb-2 bg-trasparent" style="position: relative">
+              <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <div class="text-center pt-5 m-5 text-capitalize">
+                      <a href="#" class="text-decoration-none"><h4><i>Voir Plus...</i> </h4></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- barre le meilleur en HD -->
+          <div class="container">
+            <div class="container bg-success text-light p-3"> <h4> LE MEILLEUR EN HD </h4></div>
+          </div>
+          <!-- content le meilleur en HD -->
+            <div class="container mt-2 mb-2 bg-trasparent" style="position: relative">
+              <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <div class="text-center pt-5 m-5 text-capitalize">
+                      <a href="#" class="text-decoration-none"><h4><i>Voir Plus...</i> </h4></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- barre supermarche -->
+          <div class="container">
+            <div class="container bg-success text-light p-3"> <h4> SUPERMARCHE </h4></div>
+          </div>
+          <!-- content supermarche -->
+            <div class="container mt-2 mb-2 bg-trasparent" style="position: relative">
+              <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <div class="text-center pt-5 m-5 text-capitalize">
+                      <a href="#" class="text-decoration-none"><h4><i>Voir Plus...</i> </h4></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- barre mode -->
+          <div class="container">
+            <div class="container bg-success text-light p-3"> <h4> MODE </h4></div>
+          </div>
+          <!-- content mode -->
+            <div class="container mt-2 mb-2 bg-trasparent" style="position: relative">
+              <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <div class="text-center pt-5 m-5 text-capitalize">
+                      <a href="#" class="text-decoration-none"><h4><i>Voir Plus...</i> </h4></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- barre SMARTPHONES -->
+          <div class="container">
+            <div class="container bg-success text-light p-3"> <h4> SMARTPHONES </h4></div>
+          </div>
+          <!-- content SMARTPHONES -->
+            <div class="container mt-2 mb-2 bg-trasparent" style="position: relative">
+              <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <div class="text-center pt-5 m-5 text-capitalize">
+                      <a href="#" class="text-decoration-none"><h4><i>Voir Plus...</i> </h4></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- barre TABLETTES -->
+          <div class="container">
+            <div class="container bg-success text-light p-3"> <h4> TABLETTES </h4></div>
+          </div>
+          <!-- content TABLETTES -->
+            <div class="container mt-2 mb-2 bg-trasparent" style="position: relative">
+              <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <div class="text-center pt-5 m-5 text-capitalize">
+                      <a href="#" class="text-decoration-none"><h4><i>Voir Plus...</i> </h4></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- barre ECOUTEURS ET ACCESOIRES BLUETHOOD -->
+          <div class="container">
+            <div class="container bg-success text-light p-3"> <h4> ECOUTEURS ET ACCESOIRES BLUETHOOD </h4></div>
+          </div>
+          <!-- content ECOUTEURS ET ACCESOIRES BLUETHOOD -->
+            <div class="container mt-2 mb-2 bg-trasparent" style="position: relative">
+              <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <div class="text-center pt-5 m-5 text-capitalize">
+                      <a href="#" class="text-decoration-none"><h4><i>Voir Plus...</i> </h4></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- barre INFORMATIQUE -->
+          <div class="container">
+            <div class="container bg-success text-light p-3"> <h4> INFORMATIQUE </h4></div>
+          </div>
+          <!-- content INFORMATIQUE -->
+            <div class="container mt-2 mb-2 bg-trasparent" style="position: relative">
+              <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <div class="text-center pt-5 m-5 text-capitalize">
+                      <a href="#" class="text-decoration-none"><h4><i>Voir Plus...</i> </h4></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- barre ACCESSOIRES INFORMATIQUES -->
+          <div class="container">
+            <div class="container bg-success text-light p-3"> <h4> ACCESSOIRES INFORMATIQUES </h4></div>
+          </div>
+          <!-- content ACCESSOIRES INFORMATIQUES -->
+            <div class="container mt-2 mb-2 bg-trasparent" style="position: relative">
+              <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <div class="text-center pt-5 m-5 text-capitalize">
+                      <a href="#" class="text-decoration-none"><h4><i>Voir Plus...</i> </h4></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- barre ELECTROMENAGER -->
+          <div class="container">
+            <div class="container bg-success text-light p-3"> <h4> ELECTROMENAGER </h4></div>
+          </div>
+          <!-- content ELECTROMENAGER -->
+            <div class="container mt-2 mb-2 bg-trasparent" style="position: relative">
+              <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <div class="text-center pt-5 m-5 text-capitalize">
+                      <a href="#" class="text-decoration-none"><h4><i>Voir Plus...</i> </h4></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- barre MEUBLERIE -->
+          <div class="container">
+            <div class="container bg-success text-light p-3"> <h4> MEUBLERIE </h4></div>
+          </div>
+          <!-- content MEUBLERIE -->
+            <div class="container mt-2 mb-2 bg-trasparent" style="position: relative">
+              <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <div class="text-center pt-5 m-5 text-capitalize">
+                      <a href="#" class="text-decoration-none"><h4><i>Voir Plus...</i> </h4></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- barre NOS CATEGORIES -->
+          <div class="container">
+            <div class="container bg-success text-warning p-3"> <h4> NOS CATEGORIES </h4></div>
+          </div>
+          <!-- content NOS CATEGORIES -->
+            <div class="container mt-2 mb-2 bg-trasparent" style="position: relative">
+              <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <a href="#">
+                      <img src="https://m.media-amazon.com/images/I/61Ze2wc9nyS._AC_SL1500_.jpg" class="card-img-top" alt="product.title" />
+                    </a>
+                    <!-- <div class="label-top shadow-sm">Asus Rog</div>  -->
+                    <div class="label-top shadow-sm">
+                      <a class="text-white" href="#">msi</a>
+                    </div>
+                    <div class="card-body">
+                      <div class="clearfix mb-3">
+                        <span class="float-start badge rounded-pill bg-success">1.245$</span>
+
+                        <span class="float-end badge rounded-pill bg-danger"><s> 1$</s></span>
+                      </div>
+                      <h5  class="card-title">
+                        <a target="_blank" href="#">ASUS TUF FX505DT Gaming Laptop- 15.6"...</a>
+                      </h5>
+
+                      <div class="d-grid">
+                        <a href="#" class="btn btn-info bold-btn">add to cart</a>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col hp">
+                  <div class="card h-100 shadow-sm">
+                    <div class="text-center pt-5 m-5 text-capitalize">
+                      <a href="#" class="text-decoration-none"><h4><i>Voir Plus...</i> </h4></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+        </div>
+     </section>
+
+
+     <!-- footer page -->
+     <section class="section_3">
+
+      <div class="container-fluid colorgreen colorbleu">
+        <div class="row p-5 align-items-center">
+          <div class="col">
+            <img src="https://th.bing.com/th/id/R.e86f473f0199bbaa7e704b70b2ff219f?rik=WMnI4zwS1KQmzQ&pid=ImgRaw&r=0" class="raduis mt-2 rounded float-start" >
+            <span class="h6">&nbsp; Livraison rapide <br></span>
+            &nbsp;&nbsp;Entre 1 et 4jours <br><br>
+            <button type="button" class="btn btn-outline-light btn-sm">Mes Commandes</button>
+          </div>
+          <div class="col">
+            <img src="https://th.bing.com/th/id/R.e86f473f0199bbaa7e704b70b2ff219f?rik=WMnI4zwS1KQmzQ&pid=ImgRaw&r=0" class="raduis mt-2 rounded float-start" >
+            <span class="h6">&nbsp; Livraison rapide <br></span>
+            &nbsp;&nbsp;Entre 1 et 4jours <br><br>
+            <button type="button" class="btn btn-outline-light btn-sm">Mes Commandes</button>
+          </div>
+          <div class="col">
+            <img src="https://th.bing.com/th/id/R.e86f473f0199bbaa7e704b70b2ff219f?rik=WMnI4zwS1KQmzQ&pid=ImgRaw&r=0" class="raduis mt-2 rounded float-start" >
+            <span class="h6">&nbsp; Livraison rapide <br></span>
+            &nbsp;&nbsp;Entre 1 et 4jours <br><br>
+            <button type="button" class="btn btn-outline-light btn-sm">Mes Commandes</button>
+          </div>
+          <div class="col">
+            <img src="https://th.bing.com/th/id/R.e86f473f0199bbaa7e704b70b2ff219f?rik=WMnI4zwS1KQmzQ&pid=ImgRaw&r=0" class="raduis mt-2 rounded float-start" >
+            <span class="h6">&nbsp; Livraison rapide <br></span>
+            &nbsp;&nbsp;Entre 1 et 4jours <br><br>
+            <button type="button" class="btn btn-outline-light btn-sm">Mes Commandes</button>
+          </div>
+          <div class="col">
+            <img src="https://th.bing.com/th/id/R.e86f473f0199bbaa7e704b70b2ff219f?rik=WMnI4zwS1KQmzQ&pid=ImgRaw&r=0" class="raduis mt-2 rounded float-start" >
+            <span class="h6">&nbsp; Livraison rapide <br></span>
+            &nbsp;&nbsp;Entre 1 et 4jours <br><br>
+            <button type="button" class="btn btn-outline-light btn-sm">Mes Commandes</button>
+          </div>
+
+          <div class="col">
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">Connexion</button>
+              <button class="btn btn-primary" type="button">S'enregistrer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- info enterprise -->
+
+      <div class="container-fluid text-light color_bleu">
+        <div class="row p-5 align-items-center">
+          <div class="col">
+            <div class="text-warning h6">
+            Information
+            </div>
+              Faq <br>
+              Contactez-nous <br>
+              Qui sommes-nous <br>
+              Rejoignez-nous <br>
+              Politique de confidentialité <br>
+              Facebook <br>
+              Twitter <br>
+              RSS <br>
+              YouTube <br>
+          </div>
+          <div class="col">
+            <div class="text-warning h6">
+              Information
+            </div>
+                Faq <br>
+                Contactez-nous <br>
+                Qui sommes-nous <br>
+                Rejoignez-nous <br>
+                Politique de confidentialité <br>
+                Facebook <br>
+                Twitter <br>
+                RSS <br>
+                YouTube <br>
+            </div>
+            <div class="col">
+            <div class="text-warning h6">
+              Information
+            </div>
+                Faq <br>
+                Contactez-nous <br>
+                Qui sommes-nous <br>
+                Rejoignez-nous <br>
+                Politique de confidentialité <br>
+                Facebook <br>
+                Twitter <br>
+                RSS <br>
+                YouTube <br>
+            </div>
+            <div class="col">
+            <div class="text-warning h6">
+              Information
+            </div>
+                Faq <br>
+                Contactez-nous <br>
+                Qui sommes-nous <br>
+                Rejoignez-nous <br>
+                Politique de confidentialité <br>
+                Facebook <br>
+                Twitter <br>
+                RSS <br>
+                YouTube <br>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="color_bleu text-light p-3 text-center">
+          Copyright © 2023 Saare Cameroun. Tous droits réservés.
+        </div>
+
+      </div>
+
+    </section>
+  </div>
+</body>
+</html>
