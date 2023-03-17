@@ -1,3 +1,12 @@
+
+// header-page
+.bgsearch2{
+  background-color: #BDE6F1;
+}
+.bgsearch{
+  background-color: #25316D;
+}
+
 a{
   text-decoration: none;
   color: black;
@@ -20,7 +29,7 @@ h6,a:hover{
 	.navbar .nav-item:hover .nav-link{ color:  #06e2ff;  }
 	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
 	.navbar .dropdown-menu.fade-up{ top:180%;  }
-	.navbar .nav-item:hover .dropdown-menu{ transition: .5s; opacity:1; visibility:visible; top:100%;left:0%; transform: rotateX(0deg); }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .50s; opacity:1; visibility:visible; top:100%;left:0%; transform: rotateX(0deg); }
 }
 
 ul,li{
